@@ -1,0 +1,73 @@
+{
+	"Model" : "Micro Maestro 6" ,
+	"Id" : "WiFi System Servo Controller" , 
+	"UsbPort" : "/dev/ttyACM0" ,
+	"Servo" : [
+		{
+			"Label" : "Antena 0 PAN" ,
+			"Number" : 5 ,
+			"Model" : "EMAX ES08MA" ,
+			"AngleRange" : 160 , 
+			"MinAngle" : 10 ,
+			"CentralPulse" : 1312 ,
+			"PulseHalfRange" : 762 ,
+			"WeakPulseSpeed" : 20 ,
+			"SafePulseSpeed" : 4 ,
+			"SafeAccelerationSpeed" : 8
+		} , 
+		{
+			"Label" : "Antena 0 TILT" ,
+			"Number" : 4 ,
+			"Model" : "EMAX ES08MA" ,
+			"AngleRange" : 160 , 
+			"MinAngle" : 10 ,
+			"CentralPulse" : 1440 ,
+			"PulseHalfRange" : 740,
+			"WeakPulseSpeed" : 20 ,
+			"SafePulseSpeed" : 4 ,
+			"SafeAccelerationSpeed" : 8
+		} ,
+		{
+			"Label" : "Antena 1 PAN" ,
+			"Number" : 3 ,
+			"Model" : "EMAX ES08MA" ,
+			"AngleRange" : 160 , 
+			"MinAngle" : 10 ,
+			"CentralPulse" : 1312 ,
+			"PulseHalfRange" : 762,
+			"WeakPulseSpeed" : 20 ,
+			"SafePulseSpeed" : 4 ,
+			"SafeAccelerationSpeed" : 8
+		} , 
+		{
+			"Label" : "Antena 1 TILT" ,
+			"Number" : 2 ,
+			"Model" : "EMAX ES08MA" ,
+			"AngleRange" : 160 , 
+			"MinAngle" : 10 ,
+			"CentralPulse" : 1312 ,
+			"PulseHalfRange" : 762,
+			"WeakPulseSpeed" : 20 ,
+			"SafePulseSpeed" : 4 ,
+			"SafeAccelerationSpeed" : 8
+		}
+	] ,
+	"PanTiltStation" : [
+		{
+			"Label" : "Antena 0" ,
+			"Number" : 0 ,
+			"PanServoNumber" : 5 ,
+			"TiltServoNumber" : 4 ,
+			"PanParkAngle" : 90 ,
+			"TiltParkAngle" : 90
+		} ,
+		{
+			"Label" : "Antena 1" ,
+			"Number" : 1 ,
+			"PanServoNumber" : 3 ,
+			"TiltServoNumber" : 2 ,
+			"PanParkAngle" : 90 ,
+			"TiltParkAngle" : 90
+		}
+	]
+}
