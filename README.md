@@ -1,4 +1,2 @@
-# servo_control
-Librería python que implementa una capa de abstracción y un API para el manejo de sistemas pan/tilt basados en servomotores, configurable mediante un fichero JSON similar a lk_servo_system.conf.example.
-
-La utilidad lk_pantilt.py hace uso de esa librería para controlar un sistema como el descrito.
+# lk_servo_control
+Python library that implements an abstraction layer and an API for controlling pan/tilt systems. The configuration of the system is done through a JSON file, which should be similar to lk_servo_system.conf.example. The lk_pantilt.py utility uses that library to control such a system.
